@@ -1,0 +1,39 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.head{
+    font-family:monospace;
+    text-align: center;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    align-items :center;
+    height: 100%;
+}
+.main2{
+    margin-bottom: 100px;
+}
+.box{
+    display: flex;
+    font-family: fantasy;
+    font-size: x-large;
+    color:azure;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 100px;
+    height: 50px;
+}
+.box:hover{
+    cursor: pointer;
+    background-color: rgb(116, 116, 116);
+    transition: all ease .7s;
+}
+.row1, .row2, .row3{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
